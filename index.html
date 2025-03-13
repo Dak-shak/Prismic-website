@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Prismic Website </title>
 </head>
+
 <body>
+    <!-- header section  -->
+    <section>
     <header>
-        <div class="flex justify-center align-center gap-4 mt-3 border rounded p-1 text-sm mr-5 ml-5 bg-gray-100">
-          <button class="border rounded-md px-2 bg-green-200">New</button>
-          <span>Build a dark style website and sharpen your skills in Nuxt, Tailwind, and GSAP</span>
-            <span class="text-underline">Watch</span>
+        <div
+            class="flex flex-wrap justify-center items-center gap-4 mt-3 border rounded p-1 text-sm mr-5 ml-5 bg-gray-100 w-full">
+            <button class="border rounded-md px-2 bg-green-200">New</button>
+            <span class="text-gray-500 w-full sm:w-auto">Build a dark style website and sharpen your skills in Nuxt,
+                Tailwind, and GSAP</span>
+            <span class="underline w-full sm:w-auto">Watch</span>
         </div>
-        <nav class="flex justify-between align-center px-10 py-5 border-b">
+
+        <nav class="flex justify-between align-center text-center px-[100px] py-7 border-b">
             <div>
                 <img src="" alt="prismic-logo">
             </div>
@@ -27,14 +34,32 @@
                     <li>Pricing</li>
                 </ul>
             </div>
-            <div class=" flex flex-row align-center gap-2">
+            <div class=" flex flex-row justify-center align-center gap-2">
                 <button>Login</button>
                 <button>Request a demo</button>
-                <button class="border rounded-md p-2 text-white bg-black">Get Started</button>
+                <button class="border rounded-md px-2 py-1.5 text-white bg-black">Get Started</button>
             </div>
-
         </nav>
     </header>
-    
+
+    <!-- hero section   -->
+     <section>
+        <main>
+            <div class="flex flex-col justify-center text-center align-center pt-14">
+                <span class="text-purple-700">Build a marketing website</span>
+                <h1 class=" text-5xl text-pretty mt-4">
+                    <span>Grow your marketing</span> <br>
+                    <span>website by releasing fast</span>
+                </h1>
+                <article class="mt-4">
+                    <span>website by releasing fast</span><br>
+                    <span>pages independently to increase conversions and engagement.</span>
+                </article>
+            </div>
+
+        </main>
+     </section>
+</section>
 </body>
+
 </html>
